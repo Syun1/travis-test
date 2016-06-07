@@ -1,4 +1,4 @@
 language: generic
 script:
-- bash -e ./test.bash
+- bash -e ./travis-test.bash
 
