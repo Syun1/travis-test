@@ -1,5 +1,6 @@
 #!/bin/bash
 
-echo "travis CI test"
+echo "this is a Test"
+
 
 
