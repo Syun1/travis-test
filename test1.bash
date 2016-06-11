@@ -11,4 +11,4 @@ var_ans=6  #最大公約数プログラムの予想解
 var_out=$1 #最大公約数プログラムの実行結果の引数
 
 #予想解と実行結果を比較し、終了ステータスを出力#
-test $var_out -eq $var_out ; echo $? 
+test $var_out -eq $var_ans ; echo $? 
