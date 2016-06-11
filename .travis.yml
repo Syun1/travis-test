@@ -1,4 +1,6 @@
 language: generic
 script:
-- bash -e ./test1.bash
+- bash -e ./16745107 18 12
+- bash -e var=$( ./16745107 18 12 )
+- bash -e test $var -eq 6 ; echo $?
 
