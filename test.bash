@@ -12,8 +12,8 @@ exit 1
 #test1#
 #######
 
-echo aaa bbb NG > $temp-ans
-./same.py aaa bbb > $tmp-out || ERROR_EXIT "TEST1-1"
+echo 6 > $temp-ans
+./16745107 12 18 > $tmp-out || ERROR_EXIT "TEST1-1"
 diff $tmp-ans $tmp-out || ERROR_EXIT "TEST1-2"
 
 echo OK
