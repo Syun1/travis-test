@@ -1,5 +1,6 @@
 language: generic
 script:
 - bash -e ./16745107 12 18
-- echo " $b "
+- test $b -eq 6
+- echo $?
 
