@@ -1,4 +1,4 @@
 language: generic
 script:
-- bash -e ./test1.bash $( ./ 16745107 18 12 )
-- bash -e ./test1.bash $( ./ 16745107 12 18 )
+- bash -e ./test1.bash $( ./16745107 18 12 )
+- bash -e ./test1.bash $( ./16745107 12 18 )
