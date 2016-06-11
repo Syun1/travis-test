@@ -1,6 +1,5 @@
 language: generic
 script:
-- bash 
-script:
-- bash ./test.bash
+- bash -e ./16745107 12 18
+- echo " $b "
 
